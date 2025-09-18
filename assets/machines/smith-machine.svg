@@ -1,80 +1,31 @@
 <svg width="128" height="128" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
-  <!-- Base platform -->
-  <rect x="8" y="110" width="112" height="12" fill="#1a202c" rx="6"/>
-  <rect x="12" y="108" width="104" height="4" fill="#2d3748" rx="2"/>
+  <!-- Base -->
+  <rect x="16" y="110" width="96" height="8" fill="#2d3748" rx="4"/>
   
-  <!-- Smith machine vertical rails -->
-  <rect x="20" y="8" width="8" height="104" fill="#2d3748" rx="2"/>
-  <rect x="100" y="8" width="8" height="104" fill="#2d3748" rx="2"/>
+  <!-- Main upright -->
+  <rect x="20" y="20" width="6" height="95" fill="#4a5568" rx="3"/>
   
-  <!-- Rail guide tracks with detail -->
-  <rect x="22" y="12" width="4" height="96" fill="#718096" rx="1"/>
-  <rect x="102" y="12" width="4" height="96" fill="#718096" rx="1"/>
+  <!-- Cross beam -->
+  <rect x="20" y="50" width="88" height="6" fill="#4a5568" rx="3"/>
   
-  <!-- Linear bearing guides -->
-  <rect x="21" y="20" width="6" height="6" fill="#4a5568" rx="1"/>
-  <rect x="21" y="40" width="6" height="6" fill="#4a5568" rx="1"/>
-  <rect x="21" y="60" width="6" height="6" fill="#4a5568" rx="1"/>
-  <rect x="21" y="80" width="6" height="6" fill="#4a5568" rx="1"/>
-  <rect x="101" y="20" width="6" height="6" fill="#4a5568" rx="1"/>
-  <rect x="101" y="40" width="6" height="6" fill="#4a5568" rx="1"/>
-  <rect x="101" y="60" width="6" height="6" fill="#4a5568" rx="1"/>
-  <rect x="101" y="80" width="6" height="6" fill="#4a5568" rx="1"/>
+  <!-- Smith machine rails -->
+  <rect x="30" y="25" width="2" height="70" fill="#6b7280"/>
+  <rect x="96" y="25" width="2" height="70" fill="#6b7280"/>
   
-  <!-- Olympic barbell with realistic proportions -->
-  <rect x="24" y="45" width="80" height="8" fill="#4a5568" rx="4"/>
-  <rect x="26" y="47" width="76" height="4" fill="#718096" rx="2"/>
+  <!-- Barbell -->
+  <rect x="25" y="60" width="78" height="4" fill="#374151" rx="2"/>
+  <circle cx="25" cy="62" r="3" fill="#4a5568"/>
+  <circle cx="103" cy="62" r="3" fill="#4a5568"/>
   
-  <!-- Barbell sleeves and collars -->
-  <rect x="24" y="43" width="8" height="12" fill="#2d3748" rx="2"/>
-  <rect x="96" y="43" width="8" height="12" fill="#2d3748" rx="2"/>
-  <circle cx="28" cy="49" r="4" fill="#1a202c"/>
-  <circle cx="100" cy="49" r="4" fill="#1a202c"/>
+  <!-- Safety catches -->
+  <rect x="28" y="80" width="8" height="3" fill="#e53e3e" rx="1"/>
+  <rect x="92" y="80" width="8" height="3" fill="#e53e3e" rx="1"/>
   
-  <!-- Weight plates (45lb plates) -->
-  <rect x="32" y="38" width="12" height="22" fill="#4a5568" rx="4"/>
-  <rect x="34" y="40" width="8" height="18" fill="#2d3748" rx="2"/>
-  <circle cx="38" cy="49" r="3" fill="#718096"/>
-  <text x="38" y="52" text-anchor="middle" fill="#e2e8f0" font-size="6" font-weight="bold">45</text>
+  <!-- Weight plates on bar -->
+  <rect x="18" y="56" width="5" height="12" fill="#374151" rx="2"/>
+  <rect x="105" y="56" width="5" height="12" fill="#374151" rx="2"/>
   
-  <rect x="84" y="38" width="12" height="22" fill="#4a5568" rx="4"/>
-  <rect x="86" y="40" width="8" height="18" fill="#2d3748" rx="2"/>
-  <circle cx="90" cy="49" r="3" fill="#718096"/>
-  <text x="90" y="52" text-anchor="middle" fill="#e2e8f0" font-size="6" font-weight="bold">45</text>
-  
-  <!-- Safety bar hooks at multiple heights -->
-  <rect x="18" y="65" width="12" height="6" fill="#e53e3e" rx="2"/>
-  <rect x="98" y="65" width="12" height="6" fill="#e53e3e" rx="2"/>
-  <circle cx="24" cy="68" r="1.5" fill="#fc8181"/>
-  <circle cx="104" cy="68" r="1.5" fill="#fc8181"/>
-  
-  <rect x="18" y="75" width="12" height="6" fill="#e53e3e" rx="2"/>
-  <rect x="98" y="75" width="12" height="6" fill="#e53e3e" rx="2"/>
-  
-  <!-- Adjustable bench -->
-  <rect x="40" y="80" width="48" height="20" fill="#4a5568" rx="6"/>
-  <rect x="42" y="82" width="44" height="16" fill="#e2e8f0" rx="4"/>
-  <rect x="44" y="84" width="40" height="12" fill="#f7fafc" rx="3"/>
-  
-  <!-- Bench adjustment mechanism -->
-  <rect x="64" y="76" width="8" height="8" fill="#2d3748" rx="2"/>
-  <circle cx="68" cy="80" r="2" fill="#718096"/>
-  
-  <!-- Bench support legs -->
-  <rect x="44" y="96" width="6" height="16" fill="#2d3748" rx="1"/>
-  <rect x="78" y="96" width="6" height="16" fill="#2d3748" rx="1"/>
-  
-  <!-- Top frame structure -->
-  <rect x="20" y="8" width="88" height="8" fill="#2d3748" rx="2"/>
-  
-  <!-- Counterbalance system -->
-  <rect x="112" y="20" width="8" height="40" fill="#1a202c" rx="2"/>
-  <rect x="113" y="22" width="6" height="8" fill="#4a5568" rx="1"/>
-  <rect x="113" y="32" width="6" height="8" fill="#4a5568" rx="1"/>
-  <rect x="113" y="42" width="6" height="8" fill="#4a5568" rx="1"/>
-  <rect x="113" y="52" width="6" height="6" fill="#e53e3e" rx="1"/>
-  
-  <!-- Cable connection to barbell -->
-  <rect x="108" y="35" width="4" height="1" fill="#e2e8f0"/>
-  <rect x="104" y="35" width="1" height="14" fill="#e2e8f0"/>
+  <!-- Incline bench -->
+  <rect x="45" y="85" width="25" height="15" fill="#e2e8f0" rx="6"/>
+  <rect x="50" y="70" width="15" height="18" fill="#e2e8f0" rx="6" transform="rotate(-20 57.5 79)"/>
 </svg>

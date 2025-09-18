@@ -1,27 +1,26 @@
-<svg width="60" height="45" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 45">
-  <!-- Machine base -->
-  <rect x="5" y="35" width="50" height="8" fill="#2d3748" rx="2"/>
+<svg width="128" height="128" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Base -->
+  <rect x="16" y="110" width="96" height="8" fill="#2d3748" rx="4"/>
   
-  <!-- Platform for standing -->
-  <rect x="15" y="30" width="20" height="8" fill="#718096" rx="1"/>
+  <!-- Main frame -->
+  <rect x="20" y="25" width="6" height="90" fill="#4a5568" rx="3"/>
+  <rect x="102" y="25" width="6" height="90" fill="#4a5568" rx="3"/>
+  <rect x="20" y="25" width="88" height="6" fill="#4a5568" rx="3"/>
   
-  <!-- Calf raise mechanism -->
-  <rect x="20" y="25" width="10" height="8" fill="#e53e3e" rx="2"/>
+  <!-- Shoulder pads -->
+  <rect x="45" y="35" width="38" height="8" fill="#e2e8f0" rx="4"/>
   
-  <!-- Support handles -->
-  <rect x="8" y="15" width="3" height="15" fill="#718096" rx="1"/>
-  <rect x="44" y="15" width="3" height="15" fill="#718096" rx="1"/>
+  <!-- Calf raise platform -->
+  <rect x="35" y="95" width="58" height="8" fill="#6b7280" rx="4"/>
   
-  <!-- Weight stack -->
-  <rect x="48" y="8" width="8" height="22" fill="#2d3748" rx="1"/>
-  <rect x="49" y="10" width="6" height="3" fill="#4a5568"/>
-  <rect x="49" y="14" width="6" height="3" fill="#4a5568"/>
-  <rect x="49" y="18" width="6" height="3" fill="#4a5568"/>
-  <rect x="49" y="22" width="6" height="3" fill="#4a5568"/>
-  <rect x="49" y="26" width="6" height="3" fill="#4a5568"/>
+  <!-- Weight loading area -->
+  <rect x="105" y="45" width="12" height="8" fill="#4a5568" rx="2"/>
+  <rect x="105" y="60" width="12" height="8" fill="#4a5568" rx="2"/>
   
-  <!-- Support frame -->
-  <rect x="18" y="8" width="3" height="22" fill="#2d3748"/>
-  <rect x="34" y="8" width="3" height="22" fill="#2d3748"/>
-  <rect x="21" y="8" width="13" height="3" fill="#2d3748"/>
+  <!-- Weight plates -->
+  <rect x="112" y="40" width="6" height="18" fill="#374151" rx="2"/>
+  <rect x="112" y="65" width="6" height="18" fill="#374151" rx="2"/>
+  
+  <!-- Support structure -->
+  <rect x="58" y="30" width="12" height="70" fill="#4a5568" rx="4"/>
 </svg>

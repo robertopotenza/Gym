@@ -1,26 +1,29 @@
-<svg width="60" height="45" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 45">
-  <!-- Machine base -->
-  <rect x="5" y="35" width="50" height="8" fill="#2d3748" rx="2"/>
+<svg width="128" height="128" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Base -->
+  <rect x="16" y="110" width="96" height="8" fill="#2d3748" rx="4"/>
   
-  <!-- Elliptical frame -->
-  <rect x="15" y="25" width="30" height="12" fill="#4a5568" rx="2"/>
+  <!-- Main upright post -->
+  <rect x="60" y="25" width="8" height="90" fill="#4a5568" rx="4"/>
   
-  <!-- Pedals -->
-  <ellipse cx="20" cy="32" rx="8" ry="3" fill="#718096"/>
-  <ellipse cx="40" cy="32" rx="8" ry="3" fill="#718096"/>
+  <!-- Console/display -->
+  <rect x="45" y="25" width="38" height="12" fill="#374151" rx="6"/>
+  <rect x="48" y="28" width="32" height="6" fill="#9ca3af" rx="2"/>
   
-  <!-- Moving arms -->
-  <rect x="12" y="15" width="3" height="15" fill="#718096" rx="1"/>
-  <rect x="45" y="15" width="3" height="15" fill="#718096" rx="1"/>
+  <!-- Moving handles -->
+  <rect x="35" y="40" width="6" height="35" fill="#6b7280" rx="3"/>
+  <rect x="87" y="40" width="6" height="35" fill="#6b7280" rx="3"/>
+  <circle cx="38" cy="38" r="3" fill="#e53e3e"/>
+  <circle cx="90" cy="38" r="3" fill="#e53e3e"/>
   
-  <!-- Handles -->
-  <rect x="10" y="15" width="7" height="3" fill="#e53e3e" rx="1"/>
-  <rect x="43" y="15" width="7" height="3" fill="#e53e3e" rx="1"/>
+  <!-- Foot pedals -->
+  <ellipse cx="45" cy="85" rx="12" ry="6" fill="#e2e8f0"/>
+  <ellipse cx="83" cy="85" rx="12" ry="6" fill="#e2e8f0"/>
   
-  <!-- Console -->
-  <rect x="25" y="8" width="10" height="8" fill="#2d3748" rx="2"/>
-  <rect x="27" y="10" width="6" height="4" fill="#4a5568" rx="1"/>
+  <!-- Flywheel (simple representation) -->
+  <circle cx="64" cy="90" r="12" fill="#4a5568"/>
+  <circle cx="64" cy="90" r="8" fill="#6b7280"/>
   
-  <!-- Support column -->
-  <rect x="28" y="16" width="4" height="12" fill="#2d3748"/>
+  <!-- Side rails -->
+  <rect x="25" y="75" width="3" height="25" fill="#6b7280" rx="1"/>
+  <rect x="100" y="75" width="3" height="25" fill="#6b7280" rx="1"/>
 </svg>
