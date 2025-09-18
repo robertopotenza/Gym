@@ -1,0 +1,44 @@
+<svg width="128" height="128" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Exercise mat/base -->
+  <rect x="16" y="110" width="96" height="8" fill="#2d3748" rx="4"/>
+  
+  <!-- Exercise mat -->
+  <rect x="25" y="95" width="78" height="6" fill="#e53e3e" rx="3"/>
+  
+  <!-- Person in plank position -->
+  <!-- Head -->
+  <circle cx="40" cy="75" r="6" fill="#4a5568"/>
+  
+  <!-- Body (torso) -->
+  <rect x="45" y="72" width="35" height="8" fill="#4a5568" rx="4"/>
+  
+  <!-- Arms in push-up position -->
+  <rect x="32" y="78" width="12" height="4" fill="#4a5568" rx="2"/>
+  <rect x="82" y="78" width="12" height="4" fill="#4a5568" rx="2"/>
+  
+  <!-- Hands/palms on ground -->
+  <rect x="30" y="82" width="8" height="6" fill="#6b7280" rx="2"/>
+  <rect x="90" y="82" width="8" height="6" fill="#6b7280" rx="2"/>
+  
+  <!-- Legs -->
+  <rect x="45" y="80" width="5" height="12" fill="#4a5568" rx="2"/>
+  <rect x="75" y="80" width="5" height="12" fill="#4a5568" rx="2"/>
+  
+  <!-- Feet -->
+  <rect x="42" y="92" width="11" height="4" fill="#6b7280" rx="2"/>
+  <rect x="72" y="92" width="11" height="4" fill="#6b7280" rx="2"/>
+  
+  <!-- Movement arrows showing plank to push-up motion -->
+  <path d="M 64 60 L 64 50" stroke="#e53e3e" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 64 45 L 64 55" stroke="#e53e3e" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Core engagement indicator -->
+  <rect x="52" y="70" width="20" height="3" fill="#e53e3e" rx="1" opacity="0.7"/>
+  
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+     refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#e53e3e" />
+    </marker>
+  </defs>
+</svg>

@@ -1,0 +1,53 @@
+<svg width="128" height="128" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Exercise mat/base -->
+  <rect x="16" y="110" width="96" height="8" fill="#2d3748" rx="4"/>
+  
+  <!-- Exercise mat -->
+  <rect x="25" y="95" width="78" height="6" fill="#e53e3e" rx="3"/>
+  
+  <!-- Person in plank position for mountain climbers -->
+  <!-- Head -->
+  <circle cx="40" cy="70" r="5" fill="#4a5568"/>
+  
+  <!-- Torso -->
+  <rect x="45" y="68" width="30" height="6" fill="#4a5568" rx="3"/>
+  
+  <!-- Arms supporting body -->
+  <rect x="32" y="74" width="10" height="3" fill="#4a5568" rx="1"/>
+  <rect x="84" y="74" width="10" height="3" fill="#4a5568" rx="1"/>
+  
+  <!-- Hands on ground -->
+  <circle cx="37" cy="77" r="3" fill="#6b7280"/>
+  <circle cx="89" cy="77" r="3" fill="#6b7280"/>
+  
+  <!-- Left leg (up position - bent knee) -->
+  <rect x="52" y="74" width="3" height="8" fill="#4a5568" rx="1"/>
+  <rect x="48" y="78" width="8" height="3" fill="#4a5568" rx="1"/>
+  
+  <!-- Right leg (extended back) -->
+  <rect x="68" y="74" width="3" height="15" fill="#4a5568" rx="1"/>
+  
+  <!-- Feet -->
+  <circle cx="50" cy="80" r="2" fill="#6b7280"/>
+  <circle cx="69" cy="91" r="2" fill="#6b7280"/>
+  
+  <!-- Movement arrows showing alternating leg motion -->
+  <path d="M 50 85 Q 50 90 55 85" stroke="#e53e3e" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 69 85 Q 64 80 69 75" stroke="#e53e3e" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Speed/intensity lines -->
+  <rect x="46" y="60" width="2" height="5" fill="#e53e3e" rx="1" opacity="0.6"/>
+  <rect x="52" y="55" width="2" height="5" fill="#e53e3e" rx="1" opacity="0.6"/>
+  <rect x="58" y="50" width="2" height="5" fill="#e53e3e" rx="1" opacity="0.6"/>
+  <rect x="64" y="45" width="2" height="5" fill="#e53e3e" rx="1" opacity="0.6"/>
+  
+  <!-- Core engagement indicator -->
+  <rect x="50" y="70" width="15" height="2" fill="#e53e3e" rx="1" opacity="0.7"/>
+  
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+     refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#e53e3e" />
+    </marker>
+  </defs>
+</svg>
