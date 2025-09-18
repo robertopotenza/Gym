@@ -1,18 +1,26 @@
-<svg width="60" height="45" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 45">
-  <!-- Dumbbell handle -->
-  <rect x="20" y="20" width="20" height="4" fill="#718096" rx="1"/>
+<svg width="128" height="128" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Left dumbbell weight -->
+  <rect x="20" y="55" width="12" height="18" fill="#374151" rx="3"/>
   
-  <!-- Left weight -->
-  <rect x="12" y="16" width="10" height="12" fill="#2d3748" rx="2"/>
-  <rect x="14" y="18" width="6" height="8" fill="#4a5568" rx="1"/>
+  <!-- Handle -->
+  <rect x="32" y="61" width="24" height="6" fill="#6b7280" rx="3"/>
   
-  <!-- Right weight -->
-  <rect x="38" y="16" width="10" height="12" fill="#2d3748" rx="2"/>
-  <rect x="40" y="18" width="6" height="8" fill="#4a5568" rx="1"/>
+  <!-- Right dumbbell weight -->
+  <rect x="56" y="55" width="12" height="18" fill="#374151" rx="3"/>
   
-  <!-- Handle grips -->
-  <rect x="22" y="19" width="2" height="6" fill="#2d3748"/>
-  <rect x="26" y="19" width="2" height="6" fill="#2d3748"/>
-  <rect x="30" y="19" width="2" height="6" fill="#2d3748"/>
-  <rect x="34" y="19" width="2" height="6" fill="#2d3748"/>
+  <!-- Second dumbbell set -->
+  <rect x="75" y="45" width="12" height="18" fill="#374151" rx="3"/>
+  <rect x="87" y="51" width="24" height="6" fill="#6b7280" rx="3"/>
+  <rect x="111" y="45" width="12" height="18" fill="#374151" rx="3"/>
+  
+  <!-- Base/rack -->
+  <rect x="16" y="80" width="96" height="8" fill="#2d3748" rx="4"/>
+  <rect x="20" y="75" width="6" height="10" fill="#4a5568" rx="2"/>
+  <rect x="102" y="75" width="6" height="10" fill="#4a5568" rx="2"/>
+  
+  <!-- Weight markings -->
+  <circle cx="26" cy="64" r="2" fill="#9ca3af"/>
+  <circle cx="62" cy="64" r="2" fill="#9ca3af"/>
+  <circle cx="81" cy="54" r="2" fill="#9ca3af"/>
+  <circle cx="117" cy="54" r="2" fill="#9ca3af"/>
 </svg>
