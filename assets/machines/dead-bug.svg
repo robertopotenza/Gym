@@ -1,0 +1,51 @@
+<svg width="128" height="128" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Exercise mat/base -->
+  <rect x="16" y="110" width="96" height="8" fill="#2d3748" rx="4"/>
+  
+  <!-- Exercise mat -->
+  <rect x="25" y="95" width="78" height="6" fill="#e53e3e" rx="3"/>
+  
+  <!-- Person lying on back for dead bug -->
+  <!-- Head -->
+  <circle cx="64" cy="60" r="6" fill="#4a5568"/>
+  
+  <!-- Body (lying flat) -->
+  <rect x="58" y="66" width="12" height="20" fill="#4a5568" rx="6"/>
+  
+  <!-- Left arm (extended) -->
+  <rect x="45" y="70" width="12" height="4" fill="#4a5568" rx="2"/>
+  
+  <!-- Right arm (bent up) -->
+  <rect x="70" y="66" width="4" height="12" fill="#4a5568" rx="2"/>
+  
+  <!-- Left leg (bent up at 90 degrees) -->
+  <rect x="56" y="86" width="4" height="8" fill="#4a5568" rx="2"/>
+  <rect x="52" y="82" width="8" height="4" fill="#4a5568" rx="2"/>
+  
+  <!-- Right leg (extended) -->
+  <rect x="68" y="86" width="4" height="12" fill="#4a5568" rx="2"/>
+  
+  <!-- Hands -->
+  <circle cx="51" cy="72" r="2" fill="#6b7280"/>
+  <circle cx="72" cy="62" r="2" fill="#6b7280"/>
+  
+  <!-- Feet -->
+  <circle cx="54" cy="80" r="2" fill="#6b7280"/>
+  <circle cx="70" cy="100" r="2" fill="#6b7280"/>
+  
+  <!-- Movement arrows showing alternating motion -->
+  <path d="M 42 72 L 32 72" stroke="#e53e3e" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 72 58 L 72 48" stroke="#e53e3e" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 54 76 L 54 66" stroke="#e53e3e" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 70 104 L 80 104" stroke="#e53e3e" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Core stability indicator -->
+  <rect x="60" y="74" width="8" height="2" fill="#e53e3e" rx="1" opacity="0.7"/>
+  
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+     refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#e53e3e" />
+    </marker>
+  </defs>
+</svg>
