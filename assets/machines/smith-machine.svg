@@ -1,0 +1,27 @@
+<svg width="60" height="45" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 45">
+  <!-- Machine base -->
+  <rect x="10" y="35" width="35" height="8" fill="#2d3748" rx="2"/>
+  
+  <!-- Smith machine rails -->
+  <rect x="8" y="8" width="2" height="30" fill="#2d3748"/>
+  <rect x="45" y="8" width="2" height="30" fill="#2d3748"/>
+  
+  <!-- Barbell -->
+  <rect x="10" y="18" width="35" height="3" fill="#718096" rx="1"/>
+  <circle cx="12" cy="20" r="2" fill="#2d3748"/>
+  <circle cx="43" cy="20" r="2" fill="#2d3748"/>
+  
+  <!-- Weight plates -->
+  <rect x="15" y="16" width="4" height="7" fill="#4a5568" rx="1"/>
+  <rect x="36" y="16" width="4" height="7" fill="#4a5568" rx="1"/>
+  
+  <!-- Safety stops -->
+  <rect x="8" y="25" width="4" height="2" fill="#e53e3e"/>
+  <rect x="43" y="25" width="4" height="2" fill="#e53e3e"/>
+  
+  <!-- Bench (optional) -->
+  <rect x="20" y="28" width="15" height="8" fill="#4a5568" rx="2"/>
+  
+  <!-- Frame structure -->
+  <rect x="8" y="8" width="39" height="2" fill="#2d3748"/>
+</svg>

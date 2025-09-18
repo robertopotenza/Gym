@@ -1,0 +1,26 @@
+<svg width="60" height="45" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 45">
+  <!-- Machine base -->
+  <rect x="5" y="35" width="50" height="8" fill="#2d3748" rx="2"/>
+  
+  <!-- StairMaster steps -->
+  <rect x="15" y="30" width="8" height="8" fill="#718096" rx="1"/>
+  <rect x="18" y="27" width="8" height="8" fill="#718096" rx="1"/>
+  <rect x="21" y="24" width="8" height="8" fill="#718096" rx="1"/>
+  <rect x="24" y="21" width="8" height="8" fill="#718096" rx="1"/>
+  <rect x="27" y="18" width="8" height="8" fill="#718096" rx="1"/>
+  
+  <!-- Side rails -->
+  <rect x="8" y="15" width="3" height="20" fill="#2d3748"/>
+  <rect x="49" y="15" width="3" height="20" fill="#2d3748"/>
+  
+  <!-- Console -->
+  <rect x="25" y="8" width="10" height="8" fill="#2d3748" rx="2"/>
+  <rect x="27" y="10" width="6" height="4" fill="#4a5568" rx="1"/>
+  
+  <!-- Support column -->
+  <rect x="28" y="16" width="4" height="12" fill="#2d3748"/>
+  
+  <!-- Step indicators -->
+  <circle cx="19" cy="34" r="1" fill="#e53e3e"/>
+  <circle cx="31" cy="22" r="1" fill="#e53e3e"/>
+</svg>
