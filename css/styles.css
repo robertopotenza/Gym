@@ -128,6 +128,37 @@ body {
     flex-wrap: wrap;
 }
 
+/* Machine Illustrations */
+.machine-illustration {
+    width: 128px;
+    height: 128px;
+    margin-right: 15px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    padding: 8px;
+    background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+    border: 1px solid #e5e7eb;
+    transition: all 0.3s ease;
+}
+
+.machine-illustration:hover {
+    background: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%);
+    border-color: #667eea;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.15);
+}
+
+.exercise-with-illustration {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.exercise-content {
+    flex: 1;
+    min-width: 0;
+}
+
 
 
 .exercise-details {
@@ -377,6 +408,19 @@ body {
         flex-direction: column;
         align-items: flex-start;
         gap: 5px;
+    }
+
+    .exercise-with-illustration {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .machine-illustration {
+        width: 96px;
+        height: 96px;
+        margin-right: 0;
+        margin-bottom: 10px;
     }
 
     
