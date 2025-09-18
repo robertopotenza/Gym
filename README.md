@@ -30,12 +30,19 @@ elite-muscle-gain-website/
 
 ## 🚀 Getting Started
 
-### Option 1: Simple Setup
+### Option 1: GitHub Pages (Recommended)
+The website is automatically deployed to GitHub Pages:
+- **Live Website**: `https://robertopotenza.github.io/Gym/`
+- Updates automatically when changes are pushed to the main branch
+- Fully responsive and mobile-optimized
+- No setup required - just visit the URL!
+
+### Option 2: Simple Local Setup
 1. Download all files
 2. Open `index.html` in any modern web browser
 3. No server required - works offline!
 
-### Option 2: Local Development Server
+### Option 3: Local Development Server
 ```bash
 # Using Python 3
 python -m http.server 8000
@@ -48,6 +55,16 @@ php -S localhost:8000
 ```
 
 Then open `http://localhost:8000` in your browser.
+
+## 🌐 GitHub Pages Deployment
+
+This website is configured for automatic deployment via GitHub Pages:
+
+1. **Repository Structure**: Optimized for GitHub Pages hosting
+2. **Relative Paths**: All CSS, JS, and asset paths work correctly
+3. **No Build Process**: Pure HTML/CSS/JS - no compilation needed
+4. **Automatic Updates**: Changes pushed to main branch deploy automatically
+5. **Custom Domain Ready**: Can be configured with custom domain if needed
 
 ## 💪 Workout Program Details
 
