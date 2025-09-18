@@ -1,27 +1,53 @@
 <svg width="60" height="45" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 45">
   <!-- Machine base -->
-  <rect x="10" y="35" width="35" height="8" fill="#2d3748" rx="2"/>
+  <rect x="8" y="35" width="44" height="8" fill="#1a202c" rx="3"/>
+  <rect x="10" y="32" width="40" height="4" fill="#2d3748" rx="2"/>
   
-  <!-- Smith machine rails -->
-  <rect x="8" y="8" width="2" height="30" fill="#2d3748"/>
-  <rect x="45" y="8" width="2" height="30" fill="#2d3748"/>
+  <!-- Smith machine rails with detail -->
+  <rect x="8" y="6" width="3" height="30" fill="#2d3748" rx="1"/>
+  <rect x="49" y="6" width="3" height="30" fill="#2d3748" rx="1"/>
   
-  <!-- Barbell -->
-  <rect x="10" y="18" width="35" height="3" fill="#718096" rx="1"/>
-  <circle cx="12" cy="20" r="2" fill="#2d3748"/>
-  <circle cx="43" cy="20" r="2" fill="#2d3748"/>
+  <!-- Rail guide tracks -->
+  <rect x="9" y="8" width="1" height="26" fill="#718096"/>
+  <rect x="50" y="8" width="1" height="26" fill="#718096"/>
   
-  <!-- Weight plates -->
-  <rect x="15" y="16" width="4" height="7" fill="#4a5568" rx="1"/>
-  <rect x="36" y="16" width="4" height="7" fill="#4a5568" rx="1"/>
+  <!-- Barbell with enhanced detail -->
+  <rect x="10" y="17" width="39" height="4" fill="#4a5568" rx="2"/>
+  <rect x="11" y="18" width="37" height="2" fill="#718096" rx="1"/>
   
-  <!-- Safety stops -->
-  <rect x="8" y="25" width="4" height="2" fill="#e53e3e"/>
-  <rect x="43" y="25" width="4" height="2" fill="#e53e3e"/>
+  <!-- Barbell end caps -->
+  <circle cx="12" cy="19" r="3" fill="#2d3748"/>
+  <circle cx="47" cy="19" r="3" fill="#2d3748"/>
+  <circle cx="12" cy="19" r="1.5" fill="#718096"/>
+  <circle cx="47" cy="19" r="1.5" fill="#718096"/>
   
-  <!-- Bench (optional) -->
-  <rect x="20" y="28" width="15" height="8" fill="#4a5568" rx="2"/>
+  <!-- Weight plates with realistic design -->
+  <rect x="15" y="15" width="5" height="8" fill="#4a5568" rx="2"/>
+  <rect x="16" y="16" width="3" height="6" fill="#2d3748" rx="1"/>
+  <circle cx="17.5" cy="19" r="1" fill="#718096"/>
   
-  <!-- Frame structure -->
-  <rect x="8" y="8" width="39" height="2" fill="#2d3748"/>
+  <rect x="40" y="15" width="5" height="8" fill="#4a5568" rx="2"/>
+  <rect x="41" y="16" width="3" height="6" fill="#2d3748" rx="1"/>
+  <circle cx="42.5" cy="19" r="1" fill="#718096"/>
+  
+  <!-- Safety stops with locks -->
+  <rect x="8" y="24" width="5" height="3" fill="#e53e3e" rx="1"/>
+  <rect x="47" y="24" width="5" height="3" fill="#e53e3e" rx="1"/>
+  <circle cx="10.5" cy="25.5" r="0.5" fill="#fc8181"/>
+  <circle cx="49.5" cy="25.5" r="0.5" fill="#fc8181"/>
+  
+  <!-- Bench (adjustable) -->
+  <rect x="20" y="26" width="18" height="10" fill="#4a5568" rx="3"/>
+  <rect x="21" y="27" width="16" height="8" fill="#e2e8f0" rx="2"/>
+  
+  <!-- Bench support legs -->
+  <rect x="22" y="32" width="2" height="5" fill="#2d3748"/>
+  <rect x="34" y="32" width="2" height="5" fill="#2d3748"/>
+  
+  <!-- Frame top structure -->
+  <rect x="8" y="6" width="44" height="3" fill="#2d3748" rx="1"/>
+  
+  <!-- Linear bearing system -->
+  <rect x="10" y="18" width="2" height="2" fill="#718096"/>
+  <rect x="47" y="18" width="2" height="2" fill="#718096"/>
 </svg>
