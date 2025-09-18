@@ -1,0 +1,26 @@
+<svg width="60" height="45" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 45">
+  <!-- Machine base -->
+  <rect x="5" y="35" width="50" height="8" fill="#2d3748" rx="2"/>
+  
+  <!-- Elliptical frame -->
+  <rect x="15" y="25" width="30" height="12" fill="#4a5568" rx="2"/>
+  
+  <!-- Pedals -->
+  <ellipse cx="20" cy="32" rx="8" ry="3" fill="#718096"/>
+  <ellipse cx="40" cy="32" rx="8" ry="3" fill="#718096"/>
+  
+  <!-- Moving arms -->
+  <rect x="12" y="15" width="3" height="15" fill="#718096" rx="1"/>
+  <rect x="45" y="15" width="3" height="15" fill="#718096" rx="1"/>
+  
+  <!-- Handles -->
+  <rect x="10" y="15" width="7" height="3" fill="#e53e3e" rx="1"/>
+  <rect x="43" y="15" width="7" height="3" fill="#e53e3e" rx="1"/>
+  
+  <!-- Console -->
+  <rect x="25" y="8" width="10" height="8" fill="#2d3748" rx="2"/>
+  <rect x="27" y="10" width="6" height="4" fill="#4a5568" rx="1"/>
+  
+  <!-- Support column -->
+  <rect x="28" y="16" width="4" height="12" fill="#2d3748"/>
+</svg>

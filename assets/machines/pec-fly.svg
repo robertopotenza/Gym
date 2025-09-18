@@ -1,0 +1,30 @@
+<svg width="60" height="45" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 45">
+  <!-- Machine base -->
+  <rect x="5" y="35" width="50" height="8" fill="#2d3748" rx="2"/>
+  
+  <!-- Seat -->
+  <rect x="18" y="22" width="12" height="15" fill="#4a5568" rx="2"/>
+  <rect x="22" y="15" width="8" height="10" fill="#4a5568" rx="2"/>
+  
+  <!-- Pec fly handles -->
+  <circle cx="12" cy="18" r="3" fill="#718096"/>
+  <circle cx="35" cy="18" r="3" fill="#718096"/>
+  <rect x="10" y="15" width="4" height="6" fill="#e53e3e" rx="1"/>
+  <rect x="33" y="15" width="4" height="6" fill="#e53e3e" rx="1"/>
+  
+  <!-- Fly mechanism -->
+  <rect x="15" y="12" width="3" height="8" fill="#2d3748"/>
+  <rect x="29" y="12" width="3" height="8" fill="#2d3748"/>
+  <rect x="18" y="14" width="11" height="2" fill="#2d3748"/>
+  
+  <!-- Support frame -->
+  <rect x="22" y="8" width="3" height="14" fill="#2d3748"/>
+  
+  <!-- Weights stack -->
+  <rect x="48" y="8" width="8" height="25" fill="#2d3748" rx="1"/>
+  <rect x="49" y="10" width="6" height="3" fill="#4a5568"/>
+  <rect x="49" y="14" width="6" height="3" fill="#4a5568"/>
+  <rect x="49" y="18" width="6" height="3" fill="#4a5568"/>
+  <rect x="49" y="22" width="6" height="3" fill="#4a5568"/>
+  <rect x="49" y="26" width="6" height="3" fill="#4a5568"/>
+</svg>
