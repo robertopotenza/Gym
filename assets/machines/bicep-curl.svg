@@ -1,31 +1,52 @@
 <svg width="60" height="45" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 45">
   <!-- Machine base -->
-  <rect x="5" y="35" width="50" height="8" fill="#2d3748" rx="2"/>
+  <rect x="3" y="35" width="54" height="8" fill="#1a202c" rx="3"/>
+  <rect x="5" y="32" width="50" height="4" fill="#2d3748" rx="2"/>
   
-  <!-- Seat -->
-  <rect x="18" y="25" width="12" height="12" fill="#4a5568" rx="2"/>
-  <rect x="18" y="15" width="12" height="12" fill="#4a5568" rx="2"/>
+  <!-- Main frame structure -->
+  <rect x="15" y="8" width="4" height="27" fill="#2d3748" rx="1"/>
+  <rect x="35" y="8" width="4" height="27" fill="#2d3748" rx="1"/>
+  <rect x="15" y="8" width="24" height="4" fill="#2d3748" rx="1"/>
   
-  <!-- Bicep curl pad -->
-  <rect x="8" y="18" width="12" height="8" fill="#e53e3e" rx="2"/>
+  <!-- Seat with detailed padding -->
+  <rect x="18" y="24" width="14" height="12" fill="#4a5568" rx="3"/>
+  <rect x="19" y="25" width="12" height="10" fill="#e2e8f0" rx="2"/>
+  <!-- Seat back -->
+  <rect x="18" y="14" width="14" height="12" fill="#4a5568" rx="3"/>
+  <rect x="19" y="15" width="12" height="10" fill="#e2e8f0" rx="2"/>
   
-  <!-- Curl handles -->
-  <rect x="5" y="15" width="3" height="8" fill="#718096" rx="1"/>
-  <rect x="12" y="12" width="8" height="3" fill="#718096" rx="1"/>
+  <!-- Bicep curl pad (preacher pad) with detail -->
+  <ellipse cx="12" cy="22" rx="8" ry="6" fill="#e53e3e"/>
+  <ellipse cx="12" cy="22" rx="7" ry="5" fill="#fc8181"/>
+  <rect x="6" y="28" width="12" height="4" fill="#4a5568" rx="2"/>
   
-  <!-- Curl mechanism -->
-  <circle cx="12" cy="20" r="3" fill="#2d3748"/>
-  <rect x="15" y="18" width="8" height="3" fill="#718096" rx="1"/>
+  <!-- Curl arm mechanism with pivot -->
+  <circle cx="12" cy="20" r="4" fill="#2d3748"/>
+  <circle cx="12" cy="20" r="2" fill="#4a5568"/>
   
-  <!-- Weights stack -->
-  <rect x="48" y="8" width="8" height="25" fill="#2d3748" rx="1"/>
-  <rect x="49" y="10" width="6" height="3" fill="#4a5568"/>
-  <rect x="49" y="14" width="6" height="3" fill="#4a5568"/>
-  <rect x="49" y="18" width="6" height="3" fill="#4a5568"/>
-  <rect x="49" y="22" width="6" height="3" fill="#4a5568"/>
-  <rect x="49" y="26" width="6" height="3" fill="#4a5568"/>
+  <!-- Curl handles with grips -->
+  <rect x="4" y="16" width="2" height="8" fill="#718096" rx="1"/>
+  <rect x="18" y="16" width="2" height="8" fill="#718096" rx="1"/>
+  <circle cx="5" cy="16" r="1.5" fill="#e53e3e"/>
+  <circle cx="19" cy="16" r="1.5" fill="#e53e3e"/>
   
-  <!-- Support frame -->
-  <rect x="15" y="8" width="3" height="27" fill="#2d3748"/>
-  <rect x="35" y="8" width="3" height="27" fill="#2d3748"/>
+  <!-- Arm rest structure -->
+  <rect x="8" y="12" width="8" height="3" fill="#4a5568" rx="1"/>
+  
+  <!-- Weight stack with more detail -->
+  <rect x="48" y="6" width="8" height="28" fill="#1a202c" rx="2"/>
+  <rect x="49" y="8" width="6" height="3" fill="#4a5568" rx="0.5"/>
+  <rect x="49" y="12" width="6" height="3" fill="#4a5568" rx="0.5"/>
+  <rect x="49" y="16" width="6" height="3" fill="#e53e3e" rx="0.5"/>
+  <rect x="49" y="20" width="6" height="3" fill="#4a5568" rx="0.5"/>
+  <rect x="49" y="24" width="6" height="3" fill="#4a5568" rx="0.5"/>
+  <rect x="49" y="28" width="6" height="3" fill="#4a5568" rx="0.5"/>
+  
+  <!-- Guide rod and cable -->
+  <rect x="51.5" y="6" width="1" height="28" fill="#718096"/>
+  <rect x="44" y="18" width="1" height="12" fill="#e2e8f0"/>
+  
+  <!-- Pulley system -->
+  <circle cx="40" cy="12" r="2" fill="#4a5568"/>
+  <rect x="38" y="12" width="4" height="1" fill="#718096"/>
 </svg>
